@@ -5,8 +5,14 @@
 2. ###### [[recon-ng]]  - Recon Passively for subdomain/ips/ports
 
 3. ###### Export lists from recon-ng and use ( httpx ) to create urls/probing (urls/ips/subdomains)
+~~~  ~~~
+cat subdomains.txt | httpx -verbose > subdomains2.txt 
+~~~
 
 4. ###### Use ( isup.sh ) to filter Ips for only online ips 
+~~~  ~~~
+isup.sh ips.txt
+~~~
 
 5. ###### Use Nmap Aggressive scan & save to xml to import into Bounty platform
 ~~~  ~~~
