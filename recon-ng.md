@@ -2,7 +2,7 @@
 
 1. Create workspace
 ~~~ ~~~
-workspace create sony
+workspaces create sony
 ~~~
 
 2. Add domain name
@@ -14,9 +14,6 @@ db insert domains
 db insert companies
 ~~~
 4. Modules 
-~~~ ~~~
-modules search domains/host
-~~~
 ~~~ ~~~
 modules load recon/domains-hosts/brute_hosts
 ~~~
