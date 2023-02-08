@@ -54,11 +54,11 @@ show hosts
 ~~~
 7. Resolve hosts
 ~~~ ~~~
-modules load recon/domains-hosts/resolve
+modules load recon/hosts-hosts/resolve
 ~~~
 8. Reverse resolve
 ~~~ ~~~
-modules load recon/domains-hosts/reverse_resolve
+modules load recon/hosts-hosts/reverse_resolve
 ~~~
 
 9. Reporting
