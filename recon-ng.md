@@ -2,7 +2,7 @@
 
 1. Create workspace
 ~~~ ~~~
-workspaces create sony
+workspaces create target
 ~~~
 
 2. Add domain name
@@ -41,7 +41,9 @@ modules load recon/domains-hosts/threatminer
 ~~~ ~~~
 modules load recon/domains-hosts/threatcrowd
 ~~~
-
+~~~ ~~~
+modules load recon/hosts-ports/shodan_ip
+~~~
 5. Go to dashboard 
 ~~~ ~~~
 dashboard
